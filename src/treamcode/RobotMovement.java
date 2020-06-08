@@ -4,7 +4,6 @@ import com.company.ComputerDebugging;
 import com.company.FloatPoint;
 import com.company.Range;
 import org.opencv.core.Point;
-import sun.awt.geom.Curve;
 
 import java.util.ArrayList;
 
