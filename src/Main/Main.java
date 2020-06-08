@@ -5,6 +5,7 @@ import com.company.FloatPoint;
 import com.company.Robot;
 import treamcode.MyOpMode;
 import treamcode.OpMode;
+import treamcode.testOpMode;
 
 public class Main {
 
@@ -20,7 +21,7 @@ public class Main {
         //this is a test of the coding
         ComputerDebugging computerDebugging = new ComputerDebugging();
         Robot robot = new Robot();
-        OpMode opMode = new MyOpMode();
+        OpMode opMode = new testOpMode();
         opMode.init();
 
         ComputerDebugging.clearLogPoints();
