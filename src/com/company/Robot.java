@@ -10,9 +10,9 @@ public class Robot {
      * Creates a robot simulation
      */
     public Robot(){
-        worldXPosition = 300;
-        worldYPosition = 300;
-        worldAngle_rad = Math.toRadians(180);
+        worldXPosition = 140;
+        worldYPosition = 140;
+        worldAngle_rad = Math.toRadians(135);
     }
 
     //the actual speed the robot is moving

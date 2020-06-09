@@ -46,11 +46,11 @@ public class MathFunctions {
         try{
             double xRoot1 = (-quadraticB + Math.sqrt(Math.pow(quadraticB, 2) - (4* quadraticA * quadraticC))) / (2.0*quadraticA);
 
-            double yRoot1 = m1*(xRoot1 - x1) *y1;
+            double yRoot1 = m1*(xRoot1 - x1) + y1;
 
             //Put back the offset
             xRoot1 += circleCenter.x;
-            yRoot1 += circleCenter.x;
+            yRoot1 += circleCenter.y;
 
             double minX = linePoint1.x < linePoint2.x ? linePoint1.x : linePoint2.x;
             double maxX = linePoint1.x > linePoint2.x ? linePoint1.x : linePoint2.x;
@@ -61,7 +61,7 @@ public class MathFunctions {
 
             double xRoot2 =(-quadraticB - Math.sqrt(Math.pow(quadraticB, 2) - (4* quadraticA * quadraticC))) / (2.0*quadraticA);
 
-            double yRoot2 = m1*(xRoot2 - x1) *y1;
+            double yRoot2 = m1*(xRoot2 - x1) + y1;
 
             xRoot2 += circleCenter.x;
             yRoot2 += circleCenter.y;

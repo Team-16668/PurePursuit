@@ -14,6 +14,6 @@ public class testOpMode extends OpMode{
 
     @Override
     public void loop() {
-        goToPosition(180, 180, 0.5, 90, 0.5);
+        goToPosition(300, 300, 1, Math.toRadians(90), 1);
     }
 }
